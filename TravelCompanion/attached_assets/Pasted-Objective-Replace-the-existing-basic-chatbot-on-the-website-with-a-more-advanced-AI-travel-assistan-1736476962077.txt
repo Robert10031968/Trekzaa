@@ -1,0 +1,33 @@
+Objective: Replace the existing basic chatbot on the website with a more advanced AI travel assistant, as discussed below. The new assistant should interact with users by asking travel-related questions, generating personalized travel plans, and integrating with external services like the Google Places API.
+
+Understand the Current Setup:
+
+There is an existing basic chatbot used for travel planning on the website.
+The current chatbot lacks the ability to ask personalized questions, generate detailed travel plans, and integrate with APIs like Google Places.
+The new AI assistant should replace this basic functionality and provide a more interactive, responsive experience.
+New AI Travel Assistant Requirements:
+
+Interactive Conversation: The assistant should engage in a conversation with the user, asking questions like:
+"Where would you like to go for your vacation?"
+"Do you prefer a stationary vacation or would you like to travel around?"
+"What interests you most during your trip? (e.g., sightseeing, dining, beaches)"
+"Are you traveling alone, with friends, or with family?"
+The assistant will use these answers to build a personalized travel plan.
+Travel Plan Generation: Based on the user's responses, the assistant will:
+Generate a travel plan, divided into days.
+For each day, display details of attractions (e.g., name, address, opening hours, travel times).
+Include images and descriptions of recommended places to visit.
+Google Places API Integration: The assistant should use the Google Places API to fetch information about attractions, restaurants, and hotels based on the user's destination and interests. The assistant should be able to:
+Query nearby attractions and show results with relevant information (e.g., location, opening hours, ratings).
+Display error messages if the API fails or no results are found.
+Customization: Allow the user to modify the travel plan:
+The user should be able to swap one attraction for another.
+The assistant will automatically update the itinerary and recalculate travel times based on changes made by the user.
+Clear Presentation: The travel plan should be presented in a clear, list-based format, divided by days, with all necessary details for each day of the trip.
+Replace the Existing Chatbot: The new assistant should completely replace the old chatbot system. Ensure that the interface is updated to reflect the new interactive features, and that the chatbot window is responsive and visually appealing.
+
+Ensure Smooth Functionality:
+
+The assistant should handle all user inputs appropriately, displaying relevant questions and responses.
+It should integrate smoothly with the existing website and present the travel plan in an easy-to-read format.
+Make sure the assistant interacts with users in a friendly and professional manner, helping them plan their ideal vacation.
